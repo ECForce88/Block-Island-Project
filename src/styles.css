@@ -2,5 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 94px;
-    font-weight: 700;    
+    font-weight: 700;
+    line-height: 144px;    
+}
+header {
+    background-image: url("images/areal-view.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
