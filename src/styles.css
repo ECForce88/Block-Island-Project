@@ -2,9 +2,15 @@ body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;      
 }
+footer {
+    background-image: linear-gradient(rgb(39, 32, 68, 0.6), rgb(39, 32, 68, 0.6)), 
+                      url("../images/blockisland.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.1)), 
-                      url("../images/areal-view.jpg");  
+    background-image: linear-gradient(rgba(39, 32, 68, 0.5), rgba(39, 32, 68, 0.5)), 
+                      url("../images/bi.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -12,7 +18,7 @@ header {
     padding: 200px;
 }
 header h1 {
-    font-size: 92px;
+    font-size: 94px;
     font-weight: 700;
     line-height: 1;
     margin:30px 0;
@@ -39,6 +45,7 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     margin:0;
+    margin-top: 32px;
     padding: 16px 32px;
     background-color: white;
     color: #272044;
