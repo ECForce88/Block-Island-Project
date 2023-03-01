@@ -3,7 +3,7 @@ body {
     font-style: normal;      
 }
 footer {
-    background-image: linear-gradient(rgb(39, 32, 68, 0.6), rgb(39, 32, 68, 0.6)), 
+    background-image: linear-gradient(rgba(39, 32, 68, 0.6), rgba(39, 32, 68, 0.6)), 
                       url("../images/blockisland.jpg");  
     background-repeat: no-repeat;
     background-size: cover; 
