@@ -78,10 +78,35 @@ header a {
     background-color: white;
     color: #272044;
 }
+main {
+    background-color: white;    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+main h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #272044;
+    opacity: .3;
+    text-transform: uppercase;
+    margin: 0;
+}
+main h3 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.5;
+    color: #272044;
+    margin: 0;
+}
 section {
     margin: 0 auto;
     max-width: 100%;
     padding:100px;
+}
+img-responsive {
+    max-width: 100%;
 }
 .container {
     max-width: 1400px;
@@ -89,8 +114,13 @@ section {
 }
 .grid {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
     grid-gap: 64px;
+}
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+}
+.grid-footer {
+    grid-template-columns: 1fr 2fr 2fr;
 }
 .place-name {
     font-size: 98px;
@@ -107,6 +137,13 @@ section {
     }
     header h3 {
         font-size: 12px;
+    }
+    section {
+        padding: 30px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
     }
 
 }
